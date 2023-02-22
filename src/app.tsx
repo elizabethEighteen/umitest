@@ -9,6 +9,7 @@ import {
   requestInterceptors,
   responseInterceptors,
 } from './services/interceptor';
+import LayoutRightContent from './components/LayoutRightContent';
 
 export async function getInitialState(): Promise<{ name: string }> {
   return { name: '@umijs/max' };
@@ -26,6 +27,7 @@ export const layout = () => {
     // menu: {
     //   locale: false,
     // },
+    rightContentRender: () => <LayoutRightContent />,
     contentStyle: { padding: '10px' },
     ...defaultSetting,
   };
