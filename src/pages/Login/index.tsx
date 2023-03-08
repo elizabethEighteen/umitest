@@ -4,8 +4,15 @@ import styles from './index.less';
 import ParticlesBg from 'particles-bg';
 import { fetchLogin } from '@/services/login';
 import { useModel, history } from 'umi';
+import { useEffect } from 'react';
 
 const Login: React.FC = () => {
+  useEffect(() => {
+    console.log(1);
+  }, []);
+  useEffect(() => {
+    console.log(2);
+  }, []);
   const { setInitialState } = useModel('@@initialState');
   /** 登录 */
   const handleSubmit = async (values: any) => {

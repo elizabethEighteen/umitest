@@ -6,5 +6,6 @@ export default {
   menu: {
     locale: false,
   },
+  headerRender: false,
 };
 // 作用于app.ts

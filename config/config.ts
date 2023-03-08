@@ -21,4 +21,6 @@ export default defineConfig({
   routes: route,
   proxy,
   npmClient: 'npm',
+  // 配置leyout false 可以自定义布局
+  // layout: false,
 });
