@@ -5,6 +5,7 @@ const genRandomName = () => {
 };
 
 const useName = () => {
+  console.log('useName')
   // 每点一次按钮，genRandomName 就会执行一次
   //   const [name, setName] = React.useState(genRandomName());
   // usmemo()优化
