@@ -47,6 +47,7 @@
  import React from 'react';
  import { Table, Avatar ,Button} from '@douyinfe/semi-ui';
  import { IconMore } from '@douyinfe/semi-icons';
+ import { DatePicker } from 'antd';
 
 
  const Index =  function () {
@@ -174,7 +175,10 @@
    const columns = [{title:'title',dataIndex:'title'}]
    const data = [{title:'1111'},{title:'222'}]
  
-     return <Table columns={columns} dataSource={data} rowSelection={{}} rowKey = 'title'  />;
+     return <div>
+      <Table columns={columns} dataSource={data} rowSelection={{}} rowKey = 'title'  />
+      <DatePicker></DatePicker>
+     </div>;
    //  return <Button>222222222222222</Button>
  }
 

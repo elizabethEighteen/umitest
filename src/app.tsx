@@ -11,6 +11,9 @@ import {
 } from './services/interceptor';
 import LayoutRightContent from './components/LayoutRightContent';
 
+// import 'antd/dist/antd.min.css';
+
+
 export async function getInitialState(): Promise<{ name: string }> {
   return { name: '@umijs/max' };
 }
