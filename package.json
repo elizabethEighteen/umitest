@@ -13,10 +13,11 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-components": "^2.0.1",
+    "@douyinfe/semi-ui": "^2.1.3",
     "@umijs/max": "^4.0.47",
     "antd": "^5.0.0",
     "particles-bg": "^2.5.5",
-    "@douyinfe/semi-ui": "^2.1.3"
+    "three": "^0.151.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
